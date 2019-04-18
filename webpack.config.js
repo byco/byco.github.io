@@ -6,7 +6,7 @@ const DIST_DIR = path.join(__dirname, '/react-client/dist');
 const webpack = require('webpack');
 
 module.exports = {
-	entry: `${SRC_DIR}/index.html`,
+	entry: `${SRC_DIR}/index.jsx`,
 	output: {
 		path: DIST_DIR,
 		filename: 'bundle.js',
