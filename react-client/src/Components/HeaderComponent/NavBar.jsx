@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 class NavBar extends Component {
   render() {
     return (
-          <>
+        
       <Navbar bg="dark" variant="dark">
         <Navbar.Brand href="#home">Navbar</Navbar.Brand>
         <Nav className="mr-auto">
@@ -43,7 +43,7 @@ class NavBar extends Component {
           <Button variant="outline-primary">Search</Button>
         </Form>
       </Navbar>
-    </>;
+
       
       /*<header>
         <ul id="headerButtons">
