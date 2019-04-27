@@ -63,7 +63,7 @@ ol, ul {
 		padding: 8px 15px;
 		text-decoration: none;
 		font-weight: bold;
-		color: #069;
+		color: #dddddd;
 		border-right: 1px solid #ccc; }
 
 #nav li a {
@@ -71,5 +71,5 @@ ol, ul {
 		padding: 8px 15px;
 		text-decoration: none;
 		font-weight: bold;
-		color: #069;
+		color: #eeeeee;
 		border-right: 1px solid #ccc; }
