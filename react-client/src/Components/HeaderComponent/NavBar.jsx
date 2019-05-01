@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import 'https://unpkg.com/@coreui/coreui/dist/css/coreui.min.css';
+
 class NavBar extends Component {
   render() {
     return (
