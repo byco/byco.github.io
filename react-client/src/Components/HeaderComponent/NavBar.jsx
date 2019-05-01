@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import '../../dist/coreui.min.css';
+import '../../../dist/coreui.min.css';
 
 class NavBar extends Component {
   render() {
