@@ -7,7 +7,7 @@ class NavBar extends Component {
   render() {
     return (
       <header>
-        {
+       
           /*<Navbar bg="light" expand="lg">
   <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -39,7 +39,7 @@ class NavBar extends Component {
                 <li><a href="#">About</a></li>
                 <li><a href="#">FAQ</a></li>
                 <li><a href="#">Contact</a></li>
-              </ul>*/}
+              </ul>*/
     
       </header>
     )
