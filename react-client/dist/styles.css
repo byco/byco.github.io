@@ -73,3 +73,7 @@ ol, ul {
 		font-weight: bold;
 		color: #eeeeee;
 		border-right: 1px solid #ccc; }
+
+#name-block {
+	color: #dddddd;
+}
