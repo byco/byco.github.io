@@ -75,5 +75,11 @@ ol, ul {
 		border-right: 1px solid #ccc; }
 
 #name-block {
-	color: #dddddd;
+	color: #ffffff;
+	margin: auto;
+	width: 500px;
+	height: 500px;
+	font-size: 72pt;
+	padding: 20px;
+	
 }
