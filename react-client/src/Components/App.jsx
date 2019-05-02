@@ -13,6 +13,7 @@ class App extends Component {
       <Router>
         <div>
           <NavBar />
+          This is a test
           <Route name="home" exact path="/" component={HomePage} />
           <Footer />
         </div>
