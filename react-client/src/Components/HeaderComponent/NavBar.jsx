@@ -8,7 +8,7 @@ class NavBar extends Component {
     return (
       <header>
        
-          /*<Navbar bg="light" expand="lg">
+        {/*<Navbar bg="light" expand="lg">
   <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
@@ -28,18 +28,18 @@ class NavBar extends Component {
       <Button variant="outline-success">Search</Button>
     </Form>
   </Navbar.Collapse>
-</Navbar>*/
+</Navbar>*/}
           
           Header
           
           
           
-          /*<ul id="nav">
+        {/*<ul id="nav">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">FAQ</a></li>
                 <li><a href="#">Contact</a></li>
-              </ul>*/
+              </ul>*/}
     
       </header>
     )
