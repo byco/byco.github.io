@@ -79,7 +79,7 @@ ol, ul {
 		border-right: 1px solid #ccc; }
 
 h1 {
-	font-size: 48pt;
+	font-size: 32pt;
 }
 
 #name-block {
@@ -103,9 +103,9 @@ h1 {
 }
 
 #custom-name {
-	font-size: 5vw;	
+	font-size: 6vw;	
 	margin: auto;
 	max-width:100%;
 	text-align: center;
-	color: #c6dddd;
+	color: #b1cccc;
 }
