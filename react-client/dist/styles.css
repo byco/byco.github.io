@@ -49,6 +49,10 @@ ol, ul {
   margin-left: 20px;
 }
 
+#custom {
+	margin: auto;
+	background: rgba(0, 151, 19, 0.3); }
+
 #nav {
 	width: 100%;
 	float: left;
