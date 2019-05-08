@@ -93,3 +93,13 @@ h1 {
 	padding: 20px;
 	background-color: #c6dddd;
 }
+
+#name-block {
+	margin: auto;
+	max-width:80%;
+	height:auto;
+	text-align: left;
+	font-size: 1vw;
+	padding: 20px;
+	background-color: #c6dddd;
+}
