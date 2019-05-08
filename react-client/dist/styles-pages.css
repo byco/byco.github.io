@@ -1,7 +1,7 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
-  background-color: #c6dddd;
+  background-color: #e5f9f2;
 }
 
 ol, ul {
@@ -107,5 +107,6 @@ h1 {
 	font-size: 4vw;	
 	margin: auto;
 	max-width:100%;
-	color: #e5f9f2;
+	text-align: center;
+	color: #c6dddd;
 }
