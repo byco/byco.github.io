@@ -79,7 +79,7 @@ ol, ul {
 		border-right: 1px solid #ccc; }
 
 h1 {
-	font-size: 5vw;
+	font-size: 48pt;
 }
 
 #name-block {
@@ -98,7 +98,7 @@ h1 {
 	max-width:80%;
 	height:auto;
 	text-align: left;
-	font-size: 2vw;
+	font-size: 16pt;
 	padding: 20px;
 	background-color: #c6dddd;
 }
