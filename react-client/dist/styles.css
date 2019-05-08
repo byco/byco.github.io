@@ -80,7 +80,7 @@ ol, ul {
 		border-right: 1px solid #ccc; }
 
 h1 {
-	font-size: 10vw;
+	font-size: 5vw;
 }
 
 #name-block {
@@ -99,11 +99,11 @@ h1 {
 	max-width:80%;
 	height:auto;
 	text-align: left;
-	font-size: 1vw;
+	font-size: 2vw;
 	padding: 20px;
 	background-color: #c6dddd;
 }
 
 #custom-name {
-	font-size: 2vw;	
+	font-size: 4vw;	
 }
