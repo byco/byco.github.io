@@ -59,7 +59,7 @@ ol, ul {
 	margin: 0 0 3em 0;
 	padding: 0;
 	list-style: none; 
-	background: rgba(0, 151, 19, 0.3);  }
+	background: none;  }
 #nav li {
 	float: left; }
 
@@ -84,6 +84,7 @@ ol, ul {
 	margin: auto;
 	max-width:40%;
 	height:auto;
+	text-align: center;
 	font-size: 10vw;
 	padding: 20px;
 	background-color: #c6dddd;
