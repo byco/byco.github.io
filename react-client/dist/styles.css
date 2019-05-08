@@ -2,6 +2,7 @@ body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
   background-image: url("http://web.engr.oregonstate.edu/~chaobe/CS340/bishops.jpg");
+  background-size: 30% 30%;
 }
 
 ol, ul {
