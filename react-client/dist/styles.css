@@ -103,3 +103,7 @@ h1 {
 	padding: 20px;
 	background-color: #c6dddd;
 }
+
+#custom-name {
+	font-size: 2vw;	
+}
