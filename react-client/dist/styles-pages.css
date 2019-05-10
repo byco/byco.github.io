@@ -100,10 +100,11 @@ h1 {
 	text-align: left;
 	font-size: 16pt;
 	padding: 20px;
+	color: #dddddd;
 }
 
 #custom-name {
-	font-size: 6vw;	
+	font-size: 8vw;	
 	margin: auto;
 	max-width:100%;
 	text-align: center;
