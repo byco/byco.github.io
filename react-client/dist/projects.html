@@ -60,8 +60,8 @@
 	
 <br />	
 <div class="container">
-	
-	          <div class="row">
+<div id="cards1">	
+	<div class="row">
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
                 <img class="card-img-top" src="http://web.engr.oregonstate.edu/~chaobe/CS340/uru.jpg" alt="Card image cap">
@@ -70,7 +70,7 @@
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">View</button>
+                      <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1" data-parent="#cards1">View</button>
                       <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                     </div>
                     <small class="text-muted">9 mins</small>
@@ -86,7 +86,7 @@
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">View</button>
+                      <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2" data-parent="#cards1">View</button>
                       <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                     </div>
                     <small class="text-muted">9 mins</small>
@@ -102,7 +102,7 @@
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">View</button>
+                      <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3" data-parent="#cards1">View</button>
                       <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                     </div>
                     <small class="text-muted">9 mins</small>
@@ -117,29 +117,27 @@
   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
 </p>
-<div class="row">
-    <div class="collapse hide" id="multiCollapseExample1">
+	
+<div class="accordion-group">
+    <div class="collapse indent" id="multiCollapseExample1">
       <div class="card card-body">
         More text about project 1 goes here. I'll add some more stuff later. Yup. Webpack is an open-source JavaScript module bundler. It is a module bundler primarily for JavaScript, but it can transform front-end assets like HTML, CSS, even images if the corresponding plugins are included. 
       </div>
     </div>
-    </div>
-    
-<div class="row">    
-    <div class="collapse hide" id="multiCollapseExample2">
+	
+    <div class="collapse indent" id="multiCollapseExample2">
       <div class="card card-body">
         More text about project 2 goes here. I'll add some more stuff later. Yup. Webpack is an open-source JavaScript module bundler. It is a module bundler primarily for JavaScript, but it can transform front-end assets like HTML, CSS, even images if the corresponding plugins are included. 
       </div>
     </div>
-    </div>
-    
-<div class="row">
-    <div class="collapse hide" id="multiCollapseExample3">
+
+    <div class="collapse indent" id="multiCollapseExample3">
       <div class="card card-body">
         More text about project 3 goes here. I'll add some more stuff later. Yup. Webpack is an open-source JavaScript module bundler. It is a module bundler primarily for JavaScript, but it can transform front-end assets like HTML, CSS, even images if the corresponding plugins are included. 
       </div>
     </div>
 </div>
+	</div>
 	
 <div id="like_button_container"></div>
 	
