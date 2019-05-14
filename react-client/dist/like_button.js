@@ -1,3 +1,5 @@
+import { Button } from 'reactstrap';
+
 'use strict';
 
 const e = React.createElement;
@@ -11,6 +13,7 @@ class LikeButton extends React.Component {
   render() {
     if (this.state.liked) {
       return (
+	<Button color="danger">Danger!</Button>
         'You liked this.');
     }
 
