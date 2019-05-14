@@ -3,6 +3,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import { browserHistory } from 'react-router';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import HomePage from './homePage.js';
 import NavBar from './HeaderComponent/NavBar.jsx';
 import Footer from './FooterComponent/Footer.jsx';
