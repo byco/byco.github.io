@@ -13,7 +13,6 @@ class LikeButton extends React.Component {
   render() {
     if (this.state.liked) {
       return (
-	<Button color="danger">Danger!</Button>
         'You liked this.');
     }
 
@@ -24,6 +23,12 @@ class LikeButton extends React.Component {
     );
   }
 }
+
+export default (props) => {
+  return (
+    <Button color="danger">Danger!</Button>
+  );
+};
 
 const domContainer = document.querySelector('#like_button_container');
 ReactDOM.render(e(LikeButton), domContainer);
