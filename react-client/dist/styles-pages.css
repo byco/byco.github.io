@@ -157,3 +157,13 @@ h1 {
     height: auto;
     max-width: 100%;
 }
+
+.pdfobject-container {
+	width: 100%;
+	max-width: 600px;
+	height: 600px;
+	margin: 2em 0;
+}
+
+/* PDFObject automatically assigns the class name "pdfobject" to the <embed> element */
+.pdfobject { border: solid 1px #666; }
