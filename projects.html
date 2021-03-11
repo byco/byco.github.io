@@ -3,23 +3,23 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	   
+      
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link rel="stylesheet" href="./react-client/dist/styles-pages.css">
-	   
+      
       <title>Becky Chao's Website</title>
    </head>
-	
+   
    <body>
       <div id="custom-name">Becky Chao</div>
-	   
+      
       <br />
-	   
+      
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
          </button>
-	      
+         
          <div class="container">
             <div id="custom">
                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -42,26 +42,152 @@
                   </ul>
                </div>
       </nav>
-      </div>	
+      </div>   
       </div>
-	   
+      
       <br />
-	   
+      
       <div class="container">
          <div class="custom">
             <h1 class="jumbotron-heading">My Projects</h1>
             <p class="lead">Here are some recent software projects that showcase a range of my skills and interests. A general description of their intended purpose, technologies and languages used, and a link to the Github repository (if available) are included.</p>
-	    <p class="lead text-muted">If you would like to see writing samples or other projects in my portfolio, feel free to contact me.</p>
+       <p class="lead text-muted">If you would like to see writing samples or other projects in my portfolio, feel free to contact me.</p>
             <p>
                <a href="./resume.html" class="btn btn-primary my-2">Read My Resume</a>
                <a href="./contact.html" class="btn btn-secondary my-2">Contact Me</a>
             </p>
          </div>
       </div>
-	   
+      
       <br />
-	   
+      
       <div class="container">
+
+      <div class="row">
+      <div class="col-md-4">
+         <div class="card mb-4 box-shadow">
+            <img class="card-img-top" src="/docs/img/covid-screenshot-1.jpg" alt="COVID screenshot">
+            <div class="card-body">
+               <h3>COVID-19 Risk Assessment Website</h3>
+               <p class="card-text">A website evaluating COVID-19 risk, built using vue.js, MongoDB, Node.js, JavaScript, Heroku, HTML, CSS, and based on research analysis completed in R.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                     <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">View Details</button>
+                  </div>
+                  <small class="text-muted">December 2020</small>
+               </div>
+            </div>
+         </div>
+      </div>
+         
+      <div class="col-md-4">
+         <div class="card mb-4 box-shadow">
+            <img class="card-img-top" src="/docs/img/rereading-1.jpg" alt="book club screenshot">
+            <div class="card-body">
+               <h3>Book Club Website</h3>
+               <p class="card-text">Website created for my book club as a Meetup.com replacement. Built using JavaScript, HTML, CSS, Python, and Google Calendar API.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                     <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">View Details</button>
+                  </div>
+                  <small class="text-muted">September 2020</small>
+               </div>
+            </div>
+         </div>
+      </div>
+         
+      <div class="col-md-4">
+         <div class="card mb-4 box-shadow">
+            <img class="card-img-top" src="/docs/img/asthma-1.jpg" alt="rstudio screenshot">
+            <div class="card-body">
+               <h3>Asthma Data Analysis Project</h3>
+               <p class="card-text">Using RStudio and Centers for Disease Control and Prevention data, I analyzed a large data set to answer research questions about asthma in the U.S.
+               </p>
+               <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                     <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">View Details</button>
+                  </div>
+                  <small class="text-muted">January 2021</small>
+               </div>
+            </div>
+         </div>
+      </div>
+         
+      <br />
+         
+      <div id="accordion">
+      <div class="container">
+         
+      <div id="headingOne">
+      </div>
+         
+      <div id="multiCollapseExample1" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+         <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+               <h2 class="featurette-heading">COVID-19 Risk Assessment Website</h2>
+               <br>
+               <h3>vue.js, MongoDB, Node.js, JavaScript, Heroku, HTML, CSS, R & RStudio</h3>
+               <p>Built with two teammates, this website assesses the user's probability of catching and developing a severe case of COVID-19, based on research data provided by NYC Department of Public Health and C3.ai analyzed with R and RStudio. The user enters in their daily routine and the website's JavaScript-based algorithm determines their risk level with charts. Offers account and login integration so user data can be saved in the MongoDB database. Site deployed with Heroku.
+               </p>
+               <a href="https://shielded-sierra-45177.herokuapp.com/" class="btn btn-secondary btn-sm" role="button" aria-pressed="true">Website</a>
+               <a href="https://github.com/osucovid/covid_capstone" class="btn btn-secondary btn-sm" role="button" aria-pressed="true">Github Repository</a>
+               <br />
+            </div>
+            <div class="col-md-5 order-md-1">
+               <img class="featurette-image img-fluid mx-auto" src="/docs/img/covid-screenshot-2.jpg" alt="COVID screenshot">
+            </div>
+            <br />
+         </div>
+      </div>
+         
+      <div class="container">
+         <div id="headingTwo">
+         </div>
+         <div id="multiCollapseExample2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="row featurette">
+               <div class="col-md-7 order-md-2">
+                  <h2 class="featurette-heading" id="p2">Rereading Children's Literature Book Club Website</h2>
+                  <br>
+                  <h3>JavaScript, HTML, CSS, Google Calendar API, Python</h3>
+                  <p>Website created for my book club as a Meetup.com replacement. Built using JavaScript, HTML, CSS, and Google Calendar API (data ported from club calendar). Meetup JSON event data cleaned using Python Pandas.</p>
+                  <p>Hosted at <a href="https://www.rereaders.club/">rereaders.club</a>. Use intended for club members as well as for potential members. Site includes details about the books we've read as a group, group history, upcoming event information, and a joining request/contact form.</p>
+                  <p>Upcoming features to be implemented: a searchable list of previously read books, a members-only section with login capability.</p>
+                  <a href="https://www.rereaders.club/" class="btn btn-secondary btn-sm" role="button" aria-pressed="true">Website</a>
+                  <!---<a href="https://github.com/byco/sock-search-game" class="btn btn-secondary btn-sm" role="button" aria-pressed="true">Github Repository</a>--->
+                  <br />
+               </div>
+               <div class="col-md-5 order-md-1">
+                  <img class="featurette-image img-fluid mx-auto" src="/docs/img/rereading-2.jpg" alt="rereading screenshot">
+               </div>
+               <br />
+            </div>
+         </div>
+      </div>
+         
+      <div class="container">
+         <div id="headingThree">
+         </div>
+         <div id="multiCollapseExample3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="row featurette">
+               <div class="col-md-7 order-md-2">
+                  <h2 class="featurette-heading" id="p3">Asthma Data Analysis Project</h2>
+                  <br>
+                  <h3>R & RStudio</h3>
+                  <p>
+                  I formulated several research questions with the theme of asthma in the U.S. population, using RStudio and Centers for Disease Control and Prevention data. Using nearly half a million interviews comprising a large data set (491k entries and 330 columns), I used R to filter, sort, visualize, and summarize my conclusions.
+                  </p>
+                  <br />
+               </div>
+               <div class="col-md-5 order-md-1">
+                  <img class="featurette-image img-fluid mx-auto" src="/docs/img/asthma-2.jpg" alt="asthma screenshot">
+               </div>
+               <br />
+            </div>
+         </div>
+      </div>
+         
+      <hr class="featurette-divider">
+
       <div class="row">
       <div class="col-md-4">
          <div class="card mb-4 box-shadow">
@@ -71,14 +197,14 @@
                <p class="card-text">A hiking database tracking hiker, hike, park, trail, and camping entries with CRUD functions, built using MariaDB, node.JS, SQL, and JavaScript.</p>
                <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                     <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">View Details</button>
+                     <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">View Details</button>
                   </div>
                   <small class="text-muted">August 2018</small>
                </div>
             </div>
          </div>
       </div>
-	      
+         
       <div class="col-md-4">
          <div class="card mb-4 box-shadow">
             <img class="card-img-top" src="/docs/img/socks-big-6.jpg" alt="Sock game screenshot">
@@ -87,14 +213,14 @@
                <p class="card-text">A text-based C++ game in which the player must find their missing socks, which are hidden in randomly-assigned locations.</p>
                <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                     <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">View Details</button>
+                     <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">View Details</button>
                   </div>
                   <small class="text-muted">March 2018</small>
                </div>
             </div>
          </div>
       </div>
-	      
+         
       <div class="col-md-4">
          <div class="card mb-4 box-shadow">
             <img class="card-img-top" src="/docs/img/bin-1.jpg" alt="Bin packing solver screenshot">
@@ -105,23 +231,23 @@
                </p>
                <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                     <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">View Details</button>
+                     <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6">View Details</button>
                   </div>
                   <small class="text-muted">November 2018</small>
                </div>
             </div>
          </div>
       </div>
-	      
+         
       <br />
-	      
+         
       <div id="accordion">
       <div class="container">
-	      
-      <div id="headingOne">
+         
+      <div id="headingFour">
       </div>
-	      
-      <div id="multiCollapseExample1" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+         
+      <div id="multiCollapseExample4" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
          <div class="row featurette">
             <div class="col-md-7 order-md-2">
                <h2 class="featurette-heading">Hiking Database</h2>
@@ -140,11 +266,11 @@
             <br />
          </div>
       </div>
-	      
+         
       <div class="container">
-         <div id="headingTwo">
+         <div id="headingFive">
          </div>
-         <div id="multiCollapseExample2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+         <div id="multiCollapseExample5" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
             <div class="row featurette">
                <div class="col-md-7 order-md-2">
                   <h2 class="featurette-heading" id="p2">Sock Search Game</h2>
@@ -167,11 +293,11 @@
             </div>
          </div>
       </div>
-	      
+         
       <div class="container">
-         <div id="headingThree">
+         <div id="headingSix">
          </div>
-         <div id="multiCollapseExample3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+         <div id="multiCollapseExample6" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
             <div class="row featurette">
                <div class="col-md-7 order-md-2">
                   <h2 class="featurette-heading" id="p3">Bin Packing Problem Solver</h2>
@@ -197,94 +323,9 @@
             </div>
          </div>
       </div>
-	      
+         
       <hr class="featurette-divider">
-	      
-      <div id="accordion">
-      <div class="container">
-	      
-      <div id="headingOne">
-      </div>
-	      
-      <div id="multiCollapseExample1" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-         <div class="row featurette">
-            <div class="col-md-7 order-md-2">
-               <h2 class="featurette-heading">Hiking Database</h2>
-               <br>
-               <h3>Node.js, SQL, JavaScript, HTML, CSS, MariaDB</h3>
-               <p>This database tracks hikers, hikes, parks, trails, and camping entries.
-                  Users can enter in data such as hike weather, length, ascent, and temperature, all tracked with unique IDs.
-                  Relationships between entities have been defined (e.g. there is a many-to-many relationship between hikers
-                  and hikes).
-               </p>
-               <!--<a href="#" class="btn btn-secondary btn-sm" role="button" aria-pressed="true">Github Repository</a>--><br />
-            </div>
-            <div class="col-md-5 order-md-1">
-               <img class="featurette-image img-fluid mx-auto" src="/docs/img/erd-screenshot.jpg" alt="ERD screenshot">
-            </div>
-            <br />
-         </div>
-      </div>
-	      
-      <div class="container">
-         <div id="headingTwo">
-         </div>
-         <div id="multiCollapseExample2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-            <div class="row featurette">
-               <div class="col-md-7 order-md-2">
-                  <h2 class="featurette-heading" id="p2">Sock Search Game</h2>
-                  <br>
-                  <h3>C++</h3>
-                  <p>This game was designed with pointer-linked room spaces using object-oriented programming concepts. 
-                     The player can navigate from room to room, searching objects and spaces for their missing socks, by typing options into the terminal. 
-                     Room and sock locations are randomly generated each game, which has a 100 step limit.
-                  </p>
-                  <p>This game was inspired by a recurring nightmare of mine (not having socks and frantically searching for them with no luck… in real life, I don’t really like wearing socks and avoid wearing them whenever possible).</p>
-                  <p>You can play the game in your browser. Be sure to make the black terminal window on the right as wide as possible so the house map can be properly viewed, then click RUN at the top.</p>
-                  <a href="https://repl.it/@byco/Sock-Search-Game" class="btn btn-secondary btn-sm" role="button" aria-pressed="true">Live Demo</a>
-                  <a href="https://github.com/byco/sock-search-game" class="btn btn-secondary btn-sm" role="button" aria-pressed="true">Github Repository</a>
-                  <br />
-               </div>
-               <div class="col-md-5 order-md-1">
-                  <img class="featurette-image img-fluid mx-auto" src="/docs/img/socks-small-1.jpg" alt="Sock game screenshot">
-               </div>
-               <br />
-            </div>
-         </div>
-      </div>
-	      
-      <div class="container">
-         <div id="headingThree">
-         </div>
-         <div id="multiCollapseExample3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-            <div class="row featurette">
-               <div class="col-md-7 order-md-2">
-                  <h2 class="featurette-heading" id="p3">Bin Packing Problem Solver</h2>
-                  <br>
-                  <h3>Python</h3>
-                  <p>In the <a href="https://en.wikipedia.org/wiki/Bin_packing_problem">bin packing problem</a>, objects with different volumes are packed into a finite number of bins in an order 
-                     that minimizes the number of bins used. This program uses three greedy approximation algorithms to solve the 
-                     bin packing problem.
-                  </p>
-                  <p>1. First-Fit: Each object is put into the first bin that fits. If there is no appropriate bin, a new bin is opened.</p>
-                  <p>2. First-Fit-Decreasing: The object is sorted in decreasing order by volume, then use the First-Fit approach.</p>
-                  <p>3. Best Fit: Place objects in the order received. Place the next object into the bin that leaves the least 
-                     amount of volume left over after object is placed. Start a new bin if the object doesn't fit into any of those open.
-                  </p>
-                  <a href="https://repl.it/@byco/Bin-Packing-Solver" class="btn btn-secondary btn-sm" role="button" aria-pressed="true">Live Demo</a>
-                  <a href="https://github.com/byco/bin-packing-solver" class="btn btn-secondary btn-sm" role="button" aria-pressed="true">Github Repository</a>
-                  <br />
-               </div>
-               <div class="col-md-5 order-md-1">
-                  <img class="featurette-image img-fluid mx-auto" src="/docs/img/bin-2.jpg" alt="Bin packing solver screenshot">
-               </div>
-               <br />
-            </div>
-         </div>
-      </div>
-	      
-      <hr class="featurette-divider">
-	      
+         
       <div class="container">
       <div class="row">
          <div class="col-md-4">
@@ -295,14 +336,14 @@
                   <p class="card-text">This C program encrypts and decrypts messages using a one-time pad-like implementation. Plaintext will be encrypted and decrypted into ciphertext using a randomly generated key.</p>
                   <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
-                        <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">View Details</button>
+                        <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7">View Details</button>
                      </div>
                      <small class="text-muted">March 2019</small>
                   </div>
                </div>
             </div>
          </div>
-	      
+         
          <div class="col-md-4">
             <div class="card mb-4 box-shadow">
                <img class="card-img-top" src="/docs/img/adventure-1.jpg" alt="Adventure game screenshot">
@@ -311,14 +352,14 @@
                   <p class="card-text">A text-based adventure game written in C. The player must go from the starting room to the ending room. The rooms and their connections are randomly generated each game.</p>
                   <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
-                        <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">View Details</button>
+                        <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample8" aria-expanded="false" aria-controls="multiCollapseExample8">View Details</button>
                      </div>
                      <small class="text-muted">February 2019</small>
                   </div>
                </div>
             </div>
          </div>
-	      
+         
          <div class="col-md-4">
             <div class="card mb-4 box-shadow">
                <img class="card-img-top" src="/docs/img/taishan-2.jpg" alt="Taishan website screenshot">
@@ -327,7 +368,7 @@
                   <p class="card-text">Website about a rural Chinese region, created using HTML, CSS, JavaScript, and node.JS.</p>
                   <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
-                        <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6">View Details</button>
+                        <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample9" aria-expanded="false" aria-controls="multiCollapseExample9">View Details</button>
                      </div>
                      <small class="text-muted">May 2018</small>
                   </div>
@@ -335,12 +376,12 @@
             </div>
          </div>
       </div>
-	      
+         
       <div id="accordion2">
          <div class="container">
-            <div id="headingFour">
+            <div id="headingSeven">
             </div>
-            <div id="multiCollapseExample4" class="collapse" aria-labelledby="headingFour" data-parent="#accordion2">
+            <div id="multiCollapseExample7" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion2">
                <div class="row featurette">
                   <div class="col-md-7 order-md-2">
                      <h2 class="featurette-heading">One-Time Pad Encrypter and Decrypter</h2>
@@ -362,11 +403,11 @@
                </div>
             </div>
          </div>
-	      
+         
          <div class="container">
-            <div id="headingFive">
+            <div id="headingEight">
             </div>
-            <div id="multiCollapseExample5" class="collapse" aria-labelledby="headingFive" data-parent="#accordion2">
+            <div id="multiCollapseExample8" class="collapse" aria-labelledby="headingEight" data-parent="#accordion2">
                <div class="row featurette">
                   <div class="col-md-7 order-md-2">
                      <h2 class="featurette-heading">Room Adventure Game</h2>
@@ -385,11 +426,11 @@
                </div>
             </div>
          </div>
-	      
+         
          <div class="container">
-            <div id="headingSix">
+            <div id="headingNine">
             </div>
-            <div id="multiCollapseExample6" class="collapse" aria-labelledby="headingSix" data-parent="#accordion2">
+            <div id="multiCollapseExample9" class="collapse" aria-labelledby="headingNine" data-parent="#accordion2">
                <div class="row featurette">
                   <div class="col-md-7 order-md-2">
                      <h2 class="featurette-heading">All About Taishan Website</h2>
@@ -408,17 +449,17 @@
             </div>
             <br />
          </div>
-	      
+         
          <hr class="featurette-divider">
       </div>
-	      
+         
       <div class="d-flex justify-content-center">
-         <small>Copyright &copy; 2019-21 Becky Chao. All Rights Reserved.</small>	
+         <small>Copyright &copy; 2019-21 Becky Chao. All Rights Reserved.</small>   
       </div>
-	      
+         
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
       <script src="https://unpkg.com/react/umd/react.production.js" crossorigin />
          <script
            src="https://unpkg.com/react-dom/umd/react-dom.production.js"
